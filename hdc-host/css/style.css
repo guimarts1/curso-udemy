@@ -130,3 +130,212 @@ p{
 .services-container p{
     line-height: 24px;
 }
+
+/*Prices and plans*/
+.preços-container{
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.preços-container h2{
+    font-size: 35px;
+}
+
+.preços-container p{
+    font-size: 20px;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.plan{
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+
+.plan ul{
+    padding: 0;
+}
+
+.plan li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #e8e9ea;
+    color: #333;
+}
+
+.plan .price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2cc762;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+}
+
+.plan .plan-name{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #202b34;
+    padding: 50px 0;
+}
+
+.plan .paln-btn{
+    background-color: #2cc762;
+    color: white;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.plan .recomend{
+    background-color: #f45c57;
+}
+
+/* search domain*/
+.domain-container{
+    background-color: #34454e;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.domain-container h2{
+    color: white;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.domain-container p{
+    color: #D5D5D5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.domain-container input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.domain-container input[type="text"]{
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.domain-container input[type="submit"]{
+    background-color: #2cc76a;
+    padding: 15px 30px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.domain-container input[type="submit"]:hover{
+    opacity: 1;
+}
+
+/*contact form*/
+.contact-container{
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+
+.contact-container h2{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contact-container p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input, 
+.contact-container textarea{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    margin: 0 10px 20px;
+}
+
+.contact-container textarea{
+    display: block;
+    margin: 0 auto 20px;
+    width: 450px;
+    height: 150px;
+}
+
+.contact-container input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    background-color: #2cc76a;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0 100px;
+}
+
+/*responsivo*/
+
+/*small laptops a partir de 1100px*/
+@media (max-width: 1100px){
+
+    .plans-container{
+        width: 90%;
+    }
+
+    .plan{
+        margin: 0 5px;
+    }
+}
+
+/*tablet 900px abaixo*/
+@media (max-width: 900px){
+    
+    .main-banner p{
+        font-size: 32px;
+        padding: 0 6rem;
+    }
+
+    .domain-container{
+        padding: 2rem 4rem;
+    }
+}
+
+/*celular 576px*/
+@media (max-width: 576px){
+
+    .plans-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .plan{
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
