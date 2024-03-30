@@ -37,7 +37,7 @@ body, html{
 }
 
 /*Login form*/
-#for-box{
+#form-box{
     background-color: white;
     border: 1px solid #DBDBDB;
     width: 350px;
@@ -48,4 +48,193 @@ body, html{
     width: 175px;
     height: 51px;
     margin: 30px auto 12px;
+}
+
+#login-form{
+    margin-top: 20px;
+}
+
+#login-form input{
+    display: block;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 268px;
+    margin: 5px auto;
+}
+
+#login-form input[type="submit"]{
+    background-color: #B2dFFC;
+    color: white;
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 13px;
+    padding: 0;
+    font-weight: bold;
+}
+
+/*SEPARADOR*/
+.separator{
+    position: relative;
+}
+
+.line{
+    border-top: 1px solid #DBDBDB;
+    width: 268px;
+    margin: 25px auto 35px;
+}
+
+.separator span{
+    position: absolute;
+    text-transform: uppercase;
+    color: #bbb;
+    background-color: #FFF;
+    top: -6px;
+    width: 50px;
+    margin-left: -25px;
+    font-size: 14px;
+}
+
+/*FACEBOOK LOGIN*/
+#face-login{
+    margin-bottom: 25px;
+}
+
+#face-login a{
+    text-decoration: none;
+    color: #385185;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#face-login img{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+#face-login span{
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 1px;
+}
+
+/* FORGOT PASSWORD */
+#forgot-password{
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+#forgot-password a{
+    text-decoration: nokne;
+    color: #373799;
+}
+
+/* Register */
+#register-container{
+    background-color: white;
+    border: 1px solid #DBDBDB;
+    width: 350px;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+#register-container p{
+    font-size: 14px;
+    color: #262626;
+}
+
+#register-container a{
+    color: #4a95f6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*GET APP*/
+#get-app-container{
+    text-align: center;
+    width: 350px;
+}
+
+#get-app-container a{
+    text-decoration: none;
+}
+
+#get-app-container p{
+    margin: 20px 0;
+    font-size: 13px;
+}
+
+
+#get-app-container img{
+    width: 136px;
+    height: 40px;
+}
+
+footer{
+    text-align: left;
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #footer-links{
+    display: flex;
+    list-style: none;
+}
+
+#footer-links li{
+    margin-right: 10px;
+}
+
+#footer-links a,
+#copy-right{
+    text-decoration: none;
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+#copy-right{
+    margin-top: 10px;
+}
+
+/*MOBILE*/
+@media(max-width: 450px){
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+
+    #banner-container{
+        display: none;
+    }
+
+    #main-container,
+    #form-box{
+        margin-top: 0;
+    }
+
+
+    #form-container,
+    #form-box,
+    #register-container,
+    #get-app-container{
+        width: 100%;
+        border: none;
+    }
+
+    footer{
+        width: 90%;
+    }
+
+    #footer-links{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
