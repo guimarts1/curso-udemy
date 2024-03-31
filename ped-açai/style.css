@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*CABEÇALHO DO SITE*/
+header{
+    background-color: blueviolet;
+    padding: 1px;
+    width: 100%;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container img{
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.header-container nav{
+    margin-top: 30px;
+}
+
+.header-container nav a{
+    padding: 20px;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+}
+
+.header-container nav a:hover{
+    background-color: rgb(219, 179, 32);
+    border-radius: 10px;
+}
+
+.header-container button:hover{
+    background-color: rgb(219, 179, 32);
+    color: white;
+    cursor: pointer;
+}
+
+.header-container button{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: gold;
+    color: white;
+}
+
+#menu-desktop{
+    margin: 60px;
+}
+
+/*MAIN E SECTION*/
+.main-container{
+    background-color: rgb(175, 112, 235);
+    height: 1000px;
+}
+
+.informa-ped{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text-informa{
+    margin-top: 55px;
+    font-size: 22px;
+    color: #000000d5;
+}
+
+
+.text-informa p{
+    margin-top: 25px;
+}
+
+
+.span{
+    color: rgba(255, 217, 0, 0.807);
+}
+
+#img-ped{
+    width: 265px;
+    margin-top: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+}
