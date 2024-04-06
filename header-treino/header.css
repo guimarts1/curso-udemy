@@ -78,9 +78,9 @@
 .personal-info{
     background-color: #b0aeae;
     width: 100%;
-    display: flex;
+    display: block;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .personal-info p{
