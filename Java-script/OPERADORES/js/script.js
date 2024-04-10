@@ -9,3 +9,12 @@ console.log(23-6)
 console.log(2+(4*4))
 console.log(5*8)
 console.log(1500/2)
+
+// 3 - Speciall numbers
+console.log(typeof Infinity)
+
+console.log(typeof -Infinity)
+
+console.log(12 * 'asd')
+
+console.log(typeof NaN)
