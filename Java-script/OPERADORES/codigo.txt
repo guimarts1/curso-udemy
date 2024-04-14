@@ -10,3 +10,10 @@
     <h1>Tipos de dados e operadores</h1>
 </body>
 </html>
+
+// 11 - Operadores lógicos
+console.log()
+
+console.log()
+
+console.log()
