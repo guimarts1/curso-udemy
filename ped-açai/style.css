@@ -98,3 +98,8 @@ header{
     margin-right: 35px;
     margin-bottom: 35px;
 }
+
+.line{
+    border-top: 1px solid #000;
+    width: 100%;
+}
