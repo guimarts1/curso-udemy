@@ -71,8 +71,40 @@ console.log(9 + "9")
 console.log(9 === "9")
 
 // 11 - Operadores lógicos
-console.log()
+console.log(true && true)
 
-console.log()
+console.log(true && false)
 
-console.log()
+console.log(3 < 8 && 5 > 2)
+
+console.log(3 < 8 && "gui" === 1) //AND - true and false = false
+
+console.log(3 < 8 || "gui" === 1) //OR - true or false = true
+
+console.log(3 > 8 || "gui" === 1) //OR - false or false = false
+
+console.log(!true) //NOT - inverte o resultado se for !true = false e !false = true
+
+console.log(!false) //NOT
+
+console.log(!5>2) //NOT
+
+// 12 - Null e undefined empty value
+console.log(typeof null, typeof undefined);
+
+console.log(null === undefined);
+
+console.log(null == undefined);
+
+console.log(null == false); //null = imposição.
+
+console.log(undefined == false); //undefined = quando erramos algo.
+
+// 13 - conversão do tipo automática
+console.log(5 * null)
+
+console.log("teste" * "opa")
+
+console.log("10" + 1)
+
+console.log("10" - 1)
