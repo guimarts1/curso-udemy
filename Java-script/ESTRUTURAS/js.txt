@@ -137,3 +137,9 @@ do {
 for (let t = 0; t < 10; t++){
     console.log("repetindo a frase")
 }
+
+let r = 100
+
+for(r; r > 0; r = r -1){
+    console.log(`o r está diminuindo ${r}`)
+}
