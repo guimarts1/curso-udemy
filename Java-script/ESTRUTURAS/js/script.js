@@ -10,3 +10,22 @@ for(let g = 20; g > 10; g--){
         break;
     }
 }
+
+// 16 - switch
+
+const job = "Programador"
+
+switch(job){
+    case "Programador":
+        console.log("vc é garoto de programa!")
+        break
+    case "advogado":
+        console.log("vc defende bandido!")
+        break
+    case "pedreiro":
+        console.log("vc faz muro!")
+        break
+    default: //ads
+        console.log("profissão não encontrada")
+
+}
