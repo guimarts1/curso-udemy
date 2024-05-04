@@ -118,11 +118,58 @@ const greeting = (nome) => {
 }
 
 greeting();
-(greeting("pedro"));*/
+(greeting("pedro"));
 
 // 8 - valor Default
 const customGreeting = (name, greet = "Olá!") => {
     return `${greet}, ${name}!`
 }
 
-console.log(customGreeting)
+console.log(customGreeting("gui"))
+
+console.log(customGreeting("sasa", "bom dia"))
+
+const repeatText = (text, repeat = 2) => {
+
+    for(let i = 0; i < repeat; i++){
+        console.log(text);
+    }
+
+}
+
+repeatText("testando")
+repeatText("testando 5", 5)
+
+// 9 - closures
+const multiClo = (n) => {
+    return(m) => {
+        return n * m;
+    };
+};
+
+const c1 = multiClo(5)
+const c2 = multiClo(10)
+
+
+console.log(c1);
+
+console.log(c2);
+
+console.log(c1(5));
+console.log(c1(10));
+
+// 11 - recursão
+//não criar loops infinitos
+
+function fatorial(x){
+    if(x === 0){
+        return 1
+    } else{
+        return x * fatorial(x - 1)
+    }
+}
+
+const num = 2
+const result = fatorial(num)
+
+console.log(`o fatorial do número ${num} é ${result}`)*/
