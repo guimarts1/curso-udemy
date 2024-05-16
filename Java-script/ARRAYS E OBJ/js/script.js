@@ -47,3 +47,15 @@ console.log(text.toUpperCase());
 console.log(typeof text.toUpperCase);
 console.log(text.indexOf("g"));*/
 
+// 5 - objetos
+const person = {
+    name: "Matheus",
+    age: 31,
+    job:"Garoto de programa",
+};
+
+console.log(person);//me mostra todos os dados 
+console.log(person.name);//mostra o nome
+console.log(person.age);//mostra a idade
+console.log(person.job);//mostra o trampo
+console.log(typeof person);//object
